@@ -205,7 +205,7 @@ const parseText = (ptText) => {
 };
 
 function App() {
-  const [ptText, setPtText] = React.useState(demoText);
+  const [ptText, setPtText] = React.useState("");
   const [ptData, setPtData] = React.useState(null);
   const onChange = (e) => {
     setPtText(e.target.value);
