@@ -1,0 +1,1 @@
+export default (value, minutes) => value / (minutes / 60);
